@@ -11,6 +11,7 @@
 const toggleBtn = document.getElementById('toggleBtn') as HTMLButtonElement;
 const skills = document.getElementById('skills') as HTMLElement;
 
+
 // Initially, skills should be visible and button should say "Hide Skills"
 if (toggleBtn && skills) {
     skills.style.display = 'block';

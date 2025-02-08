@@ -184,7 +184,7 @@ body {
   background: #ababab;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .progress hr {
@@ -384,6 +384,7 @@ body {
     width: 300px;
   }
 }
+
 
 @media (max-width: 550px) {
   #toggleBtn {

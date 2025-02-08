@@ -1,3 +1,4 @@
+"use strict";
 // const toggleBtn = document.getElementById('toggleBtn') as HTMLButtonElement;
 // const skills = document.getElementById('skills') as HTMLElement;
 // toggleBtn.addEventListener('click',function ()  {
@@ -7,8 +8,8 @@
 //         skills.style.display = 'none';
 //     }
 // });
-var toggleBtn = document.getElementById('toggleBtn');
-var skills = document.getElementById('skills');
+const toggleBtn = document.getElementById('toggleBtn');
+const skills = document.getElementById('skills');
 // Initially, skills should be visible and button should say "Hide Skills"
 if (toggleBtn && skills) {
     skills.style.display = 'block';
