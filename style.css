@@ -119,7 +119,7 @@ body {
 
 .bottom-sec {
   width: 100%;
-  min-height: 60rem;
+  min-height: 70rem;
   height: fit-content;
   display: flex;
   justify-content: space-between;
@@ -144,8 +144,10 @@ body {
   width: 100%;
   padding: 10px 0 10px 20px;
   background: #006a67;
-  border-radius: 30px;
+  border-radius: 30px 0px 30px 0px;
   box-shadow: 10px 5px 25px -10px #5757579c;
+  text-align: center;
+ 
 }
 .heading h3 {
   font-size: 1.4rem;
@@ -182,7 +184,7 @@ body {
   background: #ababab;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 3px;
+  margin-bottom: 15px;
 }
 
 .progress hr {
@@ -194,10 +196,10 @@ body {
 }
 
 .p-02 hr {
-  width: 70%;
+  width: 80%;
 }
 .p-03 hr {
-  width: 40%;
+  width: 50%;
 }
 .p-04 hr {
   width: 50%;
@@ -206,22 +208,25 @@ body {
   width: 25%;
 }
 .p-06 hr {
-  width: 50%;
+  width: 90%;
 }
 .p-07 hr {
   width: 25%;
 }
 .p-08 hr {
-  width: 40%;
+  width: 70%;
 }
 
 #toggleBtn {
   display: block;
   padding: 6px;
-  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
   background-color: rgb(56, 56, 106);
   color: white;
   font-weight: 600;
+  font-size:20px ;
   margin-top: 10px;
   border: none;
   transition: 0.5s;
@@ -246,6 +251,9 @@ body {
 .r-heading {
   background: #006a67;
   box-shadow: 10px 5px 25px -10px #5757579c;
+  border-radius: 30px 0px 30px 0px;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .r-heading h3 {
@@ -295,18 +303,18 @@ body {
 
 .edu-detail p {
   color: #eee5e5;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 5px;
 }
 
 .edu-detail .content {
   color: #fef9f9;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.5rem;
   margin-bottom: 5px;
-  letter-spacing: 2px;
-  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-family: sans-serif;
 }
 
 @media (max-width: 750px) {
@@ -378,6 +386,20 @@ body {
 }
 
 @media (max-width: 550px) {
+  #toggleBtn {
+    display: block;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background-color: rgb(56, 56, 106);
+    color: white;
+    font-weight: 600;
+    font-size:16px ;
+    margin-top: 20px;
+    border: none;
+    transition: 0.5s;
+  }
   .top-sec {
     padding-left: 10%;
   }
