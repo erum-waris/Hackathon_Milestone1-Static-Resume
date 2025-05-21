@@ -194,9 +194,7 @@ body {
   background: #000b58;
   border-radius: 5px;
 }
-.p-09 hr {
-  margin-bottom: 10px;
-}
+
 .p-02 hr {
   width: 80%;
 }
@@ -221,7 +219,9 @@ body {
 .p-09 hr {
   width: 70%;
 }
-
+.progress p-09{
+  margin-bottom: 4px;
+}
 #toggleBtn {
   display: block;
   padding: 6px;
