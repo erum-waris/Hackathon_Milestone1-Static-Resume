@@ -194,7 +194,9 @@ body {
   background: #000b58;
   border-radius: 5px;
 }
-
+.p-09 hr {
+  margin-bottom: 10px;
+}
 .p-02 hr {
   width: 80%;
 }
@@ -230,7 +232,7 @@ body {
   color: white;
   font-weight: 600;
   font-size:20px ;
-  margin-top: 4px;
+  margin-top: 10px;
   border: none;
   transition: 0.5s;
 }
